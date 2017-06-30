@@ -7,6 +7,12 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#blockcomment"
+		},
+		{
+			"include": "#comment"
 		}
 	],
 	"repository": {
@@ -26,6 +32,20 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"blockcomment":{
+			"patterns": [{
+				"name": "comment.block.control.lpg",
+				"begin": "/\\*",
+				"end": "\\*/"
+			}]
+		},
+		"comment":{
+			"patterns": [{
+				"name": "comment.single.control.lpg",
+				"begin": "//",
+				"end": "\n"
+			}]
 		}
 	},
 	"scopeName": "source.lpg"
