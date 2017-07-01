@@ -21,6 +21,10 @@
             "language": "LPG",
             "scopeName": "source.lpg",
             "path": "./syntaxes/.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "LPG",
+            "path": "snippets/lpg.json"
         }]
     }
 }
