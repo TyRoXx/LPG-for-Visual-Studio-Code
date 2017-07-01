@@ -1,7 +1,6 @@
 # Change Log
-All notable changes to the "lpg" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+## Version: alpha
+* Syntax Highlighting
+* Comments (block and line comments)
+* Brace completition
