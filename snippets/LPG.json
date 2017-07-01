@@ -1,0 +1,36 @@
+{   
+    "Let variable": {
+        "prefix": "let",
+        "body": [
+            "let ${1:name} : ${2:type}"
+        ],
+        "description": "Creates a variable defintion"
+    },
+    "Enum":
+    {
+        "prefix": "enum",
+        "body": [
+            "let ${1:name} = enum",
+            "\t${2:value}"
+        ],
+        "description": "Creates a variable defintion that defines an enum"
+    },
+    "Function":
+    {
+        "prefix": "enum",
+        "body": [
+            "let ${1:name} = (${1:parameters}) => ",
+            "\t${3:body}"
+        ],
+        "description": "Creates a function defintion"
+    },
+    "Creating an Interface":
+    {
+        "prefix": "interface",
+        "body": [
+            "let ${1:name} = interface",
+            "\t${2:body}"
+        ],
+        "description": "Creates a basic interface defintion"
+    },
+}
