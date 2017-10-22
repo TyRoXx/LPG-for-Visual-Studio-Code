@@ -19,7 +19,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.lpg",
-				"match": "\\b(let|enum|struct|match|case|loop|break|return|mutable|interface|reference|new)\\b"
+				"match": "\\b(let|enum|struct|match|case|loop|break|return|interface|impl)\\b"
 			}]
 		},
 		"strings": {
