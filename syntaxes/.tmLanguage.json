@@ -1,8 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "LPG",
-	"patterns": [
-		{
+	"patterns": [{
 			"include": "#keywords"
 		},
 		{
@@ -19,28 +18,26 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.lpg",
-				"match": "\\b(let|enum|struct|match|case|loop|break|return|mutable|interface|reference|new)\\b"
+				"match": "\\b(let|enum|struct|match|case|loop|break|return|mutable|interface|reference|new|impl)\\b"
 			}]
 		},
 		"strings": {
 			"name": "string.quoted.double.lpg",
 			"begin": "\"",
 			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.lpg",
-					"match": "\\\\."
-				}
-			]
+			"patterns": [{
+				"name": "constant.character.escape.lpg",
+				"match": "\\\\."
+			}]
 		},
-		"blockcomment":{
+		"blockcomment": {
 			"patterns": [{
 				"name": "comment.block.control.lpg",
 				"begin": "/\\*",
 				"end": "\\*/"
 			}]
 		},
-		"comment":{
+		"comment": {
 			"patterns": [{
 				"name": "comment.single.control.lpg",
 				"begin": "//",
