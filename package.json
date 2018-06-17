@@ -8,7 +8,8 @@
         "vscode": "^1.12.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages",
+        "Language Packs"
     ],
     "contributes": {
         "languages": [{
@@ -24,7 +25,7 @@
         }],
         "snippets": [{
             "language": "LPG",
-            "path": "snippets/lpg.json"
+            "path": "snippets/LPG.json"
         }]
     }
 }
