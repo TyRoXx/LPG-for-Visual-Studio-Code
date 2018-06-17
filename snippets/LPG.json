@@ -1,4 +1,4 @@
-{   
+{
     "Let variable": {
         "prefix": "let",
         "body": [
@@ -6,8 +6,7 @@
         ],
         "description": "Creates a variable defintion"
     },
-    "Enum":
-    {
+    "Enum": {
         "prefix": "enum",
         "body": [
             "let ${1:name} = enum",
@@ -15,8 +14,7 @@
         ],
         "description": "Creates a variable defintion that defines an enum"
     },
-    "Function":
-    {
+    "Function": {
         "prefix": "function",
         "body": [
             "let ${1:name} = (${2:parameters}) => ",
@@ -24,13 +22,20 @@
         ],
         "description": "Creates a function defintion"
     },
-    "Creating an Interface":
-    {
+    "Creating an Interface": {
         "prefix": "interface",
         "body": [
             "let ${1:name} = interface",
             "\t${2:body}"
         ],
         "description": "Creates a basic interface defintion"
+    },
+    "Creating an implementation": {
+        "prefix": "impl",
+        "body": [
+            "impl ${1:interface-type} for ${2:base-type}:",
+            "\t${3:method implementation}"
+        ],
+        "description": "Creates a basic implmentation for an interface"
     }
 }
