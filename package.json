@@ -2,10 +2,10 @@
     "name": "lpg",
     "displayName": "LPG",
     "description": "",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "virtualcall",
     "engines": {
-        "vscode": "^1.12.0"
+        "vscode": "^1.17.2"
     },
     "categories": [
         "Programming Languages",
