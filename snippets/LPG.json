@@ -37,5 +37,12 @@
             "\t${3:method implementation}"
         ],
         "description": "Creates a basic implmentation for an interface"
+    },
+    "Importing another module": {
+        "prefix": "import",
+        "body": [
+            "let ${1:handle} = import ${1:handle}"
+        ],
+        "description": "Imports a module"
     }
 }
